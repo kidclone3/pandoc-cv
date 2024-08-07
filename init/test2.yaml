@@ -1,12 +1,40 @@
-activities: []
-certificates: []
-education: []
-experiences: []
+activity:
+- phase:
+  - detail: ''
+    position: 'Cựu phó chủ nhiệm '
+    time: '2022'
+  place: CLB Hamic
+certificate: []
+education:
+- extra: ''
+  major: ''
+  place: ''
+  time: ''
+experience:
+- phase:
+  - detail: '4'
+    position: '3'
+    time: '2'
+  place: '1'
+- phase:
+  - detail: ''
+    position: ''
+    time: ''
+  place: ''
+- phase:
+  - detail: ''
+    position: ''
+    time: ''
+  place: ''
 info:
-- icon: fa fa-envelope
-  value: ''
+- data: ''
+  icon: fa-phone
+- data: ''
+  icon: fab .fa-github
+- data: ''
+  icon: fa-envelope
+name: ''
 position: ''
-references: []
-skills: ''
+reference: []
+skill: ''
 summary: ''
-username: ''
