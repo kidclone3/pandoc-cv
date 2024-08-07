@@ -10,11 +10,9 @@ $if(name)$# $name$$endif$
 $if(position)$## $position$$endif$
 
 $if(info)$
-::: {#info}
+::: {.horizontal-list}
 $for(info)$
 - []{.fa .$info.icon$} $info.data$
-$sep$
-- \|
 $endfor$
 :::
 $endif$
