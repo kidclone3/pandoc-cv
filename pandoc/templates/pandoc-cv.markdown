@@ -81,6 +81,25 @@ $endfor$
 $endfor$
 $endif$
 
+$if(project)$
+### Dự án cá nhân
+
+$for(project)$
+#### $project.place$
+
+$for(project.phase)$
+##### $project.phase.position$
+
+###### $project.phase.time$
+
+$for(project.phase.detail)$
+- $project.phase.detail$
+$endfor$
+
+$endfor$
+$endfor$
+$endif$
+
 $if(activity)$
 ### Hoạt động ngoại khóa
 
