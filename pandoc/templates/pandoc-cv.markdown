@@ -82,7 +82,7 @@ $endfor$
 $endif$
 
 $if(project)$
-### Dự án cá nhân
+### Dự án 
 
 $for(project)$
 #### $project.place$

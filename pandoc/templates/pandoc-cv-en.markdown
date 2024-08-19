@@ -82,7 +82,7 @@ $endfor$
 $endif$
 
 $if(project)$
-### Personal Project
+### Project
 
 $for(project)$
 #### $project.place$
